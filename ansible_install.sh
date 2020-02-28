@@ -10,7 +10,7 @@ apt_install() {
 }
 
 redhat_install() {
-  yum -y install ca-certificate nss epel-release
+  yum -y install epel-release
   yum -y install ansible
 }
 
